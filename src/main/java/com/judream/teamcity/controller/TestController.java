@@ -10,6 +10,6 @@ public class TestController {
 
     @RequestMapping("/index/{name}")
     public String index(@PathVariable String name) {
-        return name;
+        return name + " jiang";
     }
 }
